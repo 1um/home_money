@@ -45,7 +45,7 @@ class Directory < ActiveRecord::Base
   end
 
   def check_parent
-    if self.parent == nil && self.id != Directory.root.id
+    if self.parent == nil && self.name != 'root'
       self.parent = Directory.root
     end
   end

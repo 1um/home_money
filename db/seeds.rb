@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+unless Directory.root
+	dir = Directory.create(name:root,parent_id: null)
+	dir.save(:validate => false)
+end
