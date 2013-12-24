@@ -38,15 +38,15 @@ Rail 4, Ruby 2.0
 
  Добавление
 
-  ![Alt text](https://photos-5.dropbox.com/t/0/AACuSXg09CkG9mtnVzziXEEB_1429dCs0BsHKz6V1UfYIQ/12/76197664/png/1024x768/3/1387854000/0/2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202013-12-24%2003%3A50%3A21.png/xT7tm26zLDBkSlm7TqK3VABNk-uLceR7zw0wBz80bJ8)
+  ![Alt text](http://i.piccy.info/i9/115fb471e4cc351d9c66a0f8d91baf63/1387872247/35079/669514/Snymok_ekrana_ot_2013_12_24_03_50_21.png)
 
 Дерево категорий
 
- ![](https://photos-5.dropbox.com/t/0/AACMxnpczRleswtPQqPKjrTV4DkLQkKTMTy8wVVgeQ5Q3A/12/76197664/png/1024x768/3/1387857600/0/2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202013-12-24%2004%3A00%3A41.png/8AX0aFiX9IEyxvS_548TxPvS9pkaffDqCmQefNX23fc)
+ ![](http://i.piccy.info/i9/115fb471e4cc351d9c66a0f8d91baf63/1387872247/35079/669514/Snymok_ekrana_ot_2013_12_24_03_50_21.png)
  
 Статисика
 
-![ALT ](https://photos-6.dropbox.com/t/0/AADh0mYCsocSKuLeLA2zPRgHorfbnm0BquaRIl3YHXmRIQ/12/76197664/png/1024x768/3/1387857600/0/2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202013-12-24%2004%3A02%3A02.png/LpHseLQxItBt2HGbgfnef0tDA_xWQyfpW7pBQ0HjlX0)
+![ALT ](http://i.piccy.info/i9/8882a401a9b9612347bacbdee4e800d6/1387872393/38464/669514/Snymok_ekrana_ot_2013_12_24_04_02_02.png)
 
 
 
