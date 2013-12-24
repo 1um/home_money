@@ -42,7 +42,7 @@ Rail 4, Ruby 2.0
 
 Дерево категорий
 
- ![](http://i.piccy.info/i9/115fb471e4cc351d9c66a0f8d91baf63/1387872247/35079/669514/Snymok_ekrana_ot_2013_12_24_03_50_21.png)
+ ![](http://i.piccy.info/i9/96eb0ff9bd703541eea967af890bdc14/1387872345/25001/669514/Snymok_ekrana_ot_2013_12_24_04_00_41.png)
  
 Статисика
 
