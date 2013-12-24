@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cost: 
+  name: MyString
+  directories_purchases_id: 1
+
+two:
+  cost: 
+  name: MyString
+  directories_purchases_id: 1

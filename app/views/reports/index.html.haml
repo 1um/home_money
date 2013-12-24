@@ -1,0 +1,19 @@
+.row.dates
+  %center    
+    .date-buttons
+      = button_tag 'Last month', class: 'last_month'
+      = button_tag 'Last week', class: 'last_week'
+    .date-field
+      = text_field_tag :from, nil,placeholder:'From (10.10.2010)'
+      = text_field_tag  :to, nil, placeholder:'To (10.10.2013)'
+.row.graph1
+  .col-xs-8
+    #plot1
+    #overview1
+  .col-xs-4
+    = text_field_tag :directories, Directory.root.name
+.row.graph2
+  .col-xs-8
+    #plot2    
+  .col-xs-4
+    = text_field_tag :directory, Directory.root.name

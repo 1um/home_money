@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %title
+      Money
+  =stylesheet_link_tag "application"  
+  = csrf_meta_tags
+
+%body.app
+  %nav.navbar.navbar-default.main{role:'navigation'}
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          =link_to 'Добавление', purchases_path
+        %li
+          =link_to 'Дерево каталогов', directories_path
+        %li
+          =link_to 'Отчетность', reports_path
+  .wrapper
+    = yield
+  
+=javascript_include_tag "application"

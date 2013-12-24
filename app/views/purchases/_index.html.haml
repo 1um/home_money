@@ -1,0 +1,13 @@
+.mini_navigate
+  .date
+    = link_to '<<', purchases_path(date:@date.prev_day()), remote: true, class: 'prev'
+    = text_field_tag 'purchase[date]', @date.strftime("%d-%m-%Y"), url: purchases_path(date:'')
+    = link_to '>>', purchases_path(date:@date.next_day()), remote: true, class: 'next'
+    .nodisp
+      = link_to 'Go to typed date', purchases_path(date:''), remote: true, class: 'go'
+
+.forms
+  - @purchases.each do |p|  
+    =render 'form', locals:{p:p}
+  %br.separator
+  = render 'form', locals:{p:@new_purchase}

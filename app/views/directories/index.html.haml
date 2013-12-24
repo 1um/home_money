@@ -1,0 +1,14 @@
+.add
+  = form_for Directory.new(parent_id: Directory.root.id), remote: true, html: {class: 'add_dir'} do |f|
+    = f.text_field :name
+    = f.hidden_field :parent_id
+    = f.submit '+'
+.tree
+  = list_struct_of(Directory.first) do |dir|
+    - name =  content_tag :span, dir.name 
+    - edit = link_to '', directory_path(dir), class: 'nodisp', style: 'border:0'
+    - name+edit
+    
+
+.nodisp
+  = link_to 'Change parent catalog', set_parent_directories_path(child_name:'_child_',parent_name:'_parent_'), class: 'change_dir'

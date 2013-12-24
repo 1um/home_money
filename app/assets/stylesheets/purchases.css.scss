@@ -1,0 +1,36 @@
+// Place all the styles related to the purchases controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ajax-wait-msg{
+	width: 15%;
+	margin: 0px 10px;
+	height: 0px;
+}
+
+.mini_navigate .date{
+	width: 50%;
+	margin: 0 auto;
+}
+.pur_form{	
+	input{
+		min-height: 31px;
+		width: 100%;
+	}
+
+	.cell{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.pur_dir input{
+		min-height: inherit;
+	}
+
+	.error{
+		color:red;
+	}
+	.ok{
+		color:green;
+	}
+}

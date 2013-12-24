@@ -1,0 +1,25 @@
+.pur_form.row
+  - p = locals[:p];
+  = form_for(p, remote:true, disable_with: "Submitting...") do |f|    
+    .col-xs-1.pur_destroy
+      - path = p.new_record? ? '#' : purchase_path(p)
+      =link_to 'X', path, method: 'delete', remote: true, class: ('nodisp' if p.new_record?)
+    .col-xs-6.pur_dir.cell   
+      = text_field_tag 'purchase[directories]', p.directories.map(&:name).join(", "), class: 'main_input'
+    .col-xs-1.pur_cost.cell      
+      = f.text_field :cost, :value => "%0.2f" % (p.cost || 0), class: 'main_input'
+    .pur_date.cell.modal.nodisp
+      = f.text_field :date
+    .col-xs-2.pur_name.cell
+      = f.text_field :name, class: 'main_input'
+    .col-xs-1.pur_date_change.cell
+      = link_to "#",'#',class: 'change_date'
+    .col-xs-1.status.cell
+      .error.nodisp
+        Error!
+      .ok.nodisp
+        Ок!
+      .wait.nodisp
+        Send...
+      .change.nodisp
+        =link_to  'Unsafed','#'
